@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.cur_wea_wrapper {
+    background-image: url('../../image/Sydney.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 10px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+
+    .flex-item{
+        flex: 1 1 auto;
+    }
+
+    .city_name_wrapper {
+        font-size: 5rem;
+        text-align: right;
+        position: relative;
+        right: 4rem;
+        top: 2rem;
+
+        .line {
+            width: 200px;
+            height: 40px;
+            border-top: 5px solid white;
+            position: absolute;
+            right: 3rem;
+        }
+    }
+
+    .city_wea{
+
+        .wea_info_temp {
+            font-size: 5rem;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+
+        .wea_info_weather {
+            text-align: center;
+            margin-top: 0px;
+        }
+
+        .hs_info_wrapper {
+            display: flex;
+
+            .wea_hum {
+                border-right: 1px solid white;
+
+                p{
+                    text-align: center;
+                    margin: 0;
+                }
+            }
+
+            .wea_wind {
+                p{
+                    text-align: center;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

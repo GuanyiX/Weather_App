@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html{
+    
+
+    .wea_app_wrapper {
+        background-color: white;
+        width: 60%;
+        margin: 150px auto;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+        font-family: 'Poppins', sans-serif;
+    
+        .fu_wea_wrapper {
+            width: 100%;
+            
+            box-sizing: border-box;
+            display: flex;
+    
+            .flex-item {
+                flex: 1 1 auto;
+            }
+    
+            .twitter-wrapper {
+                border-right: 2px solid #FFCAA0;
+                margin: 20px auto;
+                padding: 0px 50px;
+                flex-basis: 40%;
+                box-sizing: border-box;
+    
+                div {
+                    margin-bottom: 1rem;
+    
+                    span:first-child {
+                        font-size: 1.5rem;
+                        font-weight: 600;
+                        color: #1DA1F2; 
+                    }
+    
+                    span:nth-last-child(2){
+                        font-size: 1.5rem;
+                        font-weight: 600;
+                        margin-left: 1rem;
+                    }
+    
+                    span:last-child{
+                        color: #1DA1F2;
+                        margin-left: 2rem;
+                        font-size: 1rem;
+                    }
+                }
+    
+                p {
+                    display: block;
+                    float: left;
+                    span:first-child {
+                        font-weight: 600;
+                    }
+                }
+    
+            }
+    
+            .five_days_wrapper {
+                // background-color: yellow;
+                flex-grow: 1.5;
+                display: flex;
+                justify-content: center;
+    
+                & > div {
+                    // background-color: #bfa;
+                    margin: 10px 30px;
+                    text-align: center;
+    
+                    p {
+                        text-align: center;
+    
+                        &:first-child {
+                            font-size: 1.5rem;
+                        }
+                    }
+    
+                    span {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+    
+}
