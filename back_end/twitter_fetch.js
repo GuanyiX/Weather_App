@@ -3,11 +3,6 @@ const notifier = require('node-notifier');
 const open = require('open');
 const franc = require('franc')
 
-const apikey = 'IwoGbepIXBgmPPjbeUDuSmHPa'
-const apiSecretKey = 'GVK83mcnJdjk8nmQarAz750eaEWQZKBsLoboulSHwAAbkTnZjp'
-const accessToken = '869395739771715584-YUYLphy5Y9zHJhttAlRDE1v65Nw4dE4'
-const accessTokenSecret = 'wnRGEowbZPaIhpnhuXqpzug5nyx2RpWodTWXT2ncHKVoR'
-
 var T = new Twit({
   consumer_key:         apikey,
   consumer_secret:      apiSecretKey,
