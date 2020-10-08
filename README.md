@@ -6,4 +6,4 @@ The project composes of two parts, front end and back end. The part of front end
 
 Because of the security consideration, all api keys were removed from the repository. You can also check the package.json for the information of dependencies. 
 
-![alt text](F:\Full stack developer\匠人11期web全栈班\P2_Weather_App)
+![alt text](https://github.com/GuanyiX/Weather_App/Project_image.PNG)
