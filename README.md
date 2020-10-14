@@ -17,3 +17,11 @@ The top part of the App demonstrates the weather which includes city name, curre
 In the right-bottom corner, it shows the weather in next five days and on the left, you can see the latest tweet which includes the hashtage of #Sydney. 
 
 
+**Updated**
+
+In order to make the weather app more functional, I added the function of choosing cities. It means you can select whaever city you want to check the weather information. As database was not used in this project, only one more city (Beijing) was used to this app. In more detail, you can select between Sydney and Beijing to check the weather information and the weather in next 5 days. 
+
+
+**How to make it commerical?**
+
+Well, as I am working on my localhost, we do need a server and database to implement the function. For example, we can design a search engine which allows users to search any city's weather. Besides, the app can be embedded to a web page which is considered as a component. 
