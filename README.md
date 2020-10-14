@@ -1,6 +1,14 @@
 # Weather_App
 
-This project aims to create a web application by using React.js, Node.js, Koa, Koa-router, Weather api, Twitter api, Sass and Flexbox. 
+This project aims to create a web application by using:
+ - React.js
+ - Node.js 
+ - Koa
+ - Weather api 
+ - Twitter api 
+ - Sass 
+ - Flexbox
+ - Responsive Web Design. 
 
 The project composes of two parts, front end and back end. The part of front end is used to build a beautiful interface for users and the part of back end is used to acquire data (JSON format) from multiple apis. 
 
