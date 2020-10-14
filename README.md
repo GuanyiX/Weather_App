@@ -2,8 +2,10 @@
 
 This project aims to create a web application by using:
  - React.js
+ - Ajax
  - Node.js 
  - Koa
+ - Rest API
  - Weather api 
  - Twitter api 
  - Sass 
