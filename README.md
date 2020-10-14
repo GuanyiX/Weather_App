@@ -6,4 +6,22 @@ The project composes of two parts, front end and back end. The part of front end
 
 Because of the security consideration, all api keys were removed from the repository. You can also check the package.json for the information of dependencies. 
 
-![alt text](F:\Full stack developer\匠人11期web全栈班\P2_Weather_App)
+***
+
+![image](https://github.com/GuanyiX/Weather_App/blob/main/Project_image.PNG)
+
+**Instructions**
+
+The top part of the App demonstrates the weather which includes city name, current temperature, humidity and wind. Thanks to the help of Node.js, React.js acquires data from my back end to update those values in every a second. Because of this function, users are able to know the latest weather information. 
+
+In the right-bottom corner, it shows the weather in next five days and on the left, you can see the latest tweet which includes the hashtage of #Sydney. 
+
+
+**Updated**
+
+In order to make the weather app more functional, I added the function of choosing cities. It means you can select whaever city you want to check the weather information. As database was not used in this project, only one more city (Beijing) was used to this app. In more detail, you can select between Sydney and Beijing to check the weather information and the weather in next 5 days. 
+
+
+**How to make it commerical?**
+
+Well, as I am working on my localhost, we do need a server and database to implement the function. For example, we can design a search engine which allows users to search any city's weather. Besides, the app can be embedded to a web page which is considered as a component. 
