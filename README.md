@@ -27,6 +27,7 @@ The top part of the App demonstrates the weather which includes city name, curre
 
 In the right-bottom corner, it shows the weather in next five days and on the left, you can see the latest tweet which includes the hashtage of #Sydney. 
 
+***
 
 ***Updated***
 **Version 2 (New version)**
