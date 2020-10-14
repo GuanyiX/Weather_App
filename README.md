@@ -7,6 +7,7 @@ The project composes of two parts, front end and back end. The part of front end
 Because of the security consideration, all api keys were removed from the repository. You can also check the package.json for the information of dependencies. 
 
 ***
+**Version 1 (Old version)**
 
 ![image](https://github.com/GuanyiX/Weather_App/blob/main/Project_image.PNG)
 
@@ -17,7 +18,8 @@ The top part of the App demonstrates the weather which includes city name, curre
 In the right-bottom corner, it shows the weather in next five days and on the left, you can see the latest tweet which includes the hashtage of #Sydney. 
 
 
-**Updated**
+***Updated***
+**Version 2 (New version)**
 
 ![image](https://github.com/GuanyiX/Weather_App/blob/main/project_image_bj.PNG)
 
