@@ -23,7 +23,7 @@ In the right-bottom corner, it shows the weather in next five days and on the le
 
 ![image](https://github.com/GuanyiX/Weather_App/blob/main/project_image_bj.PNG)
 
-In order to make the weather app more functional, I added the function of choosing cities. It means you can select whaever city you want to check the weather information. As database was not used in this project, only one more city (Beijing) was used to this app. In more detail, you can select between Sydney and Beijing to check the weather information and the weather in next 5 days. 
+In order to make the weather app more functional, I added the function of choosing cities. It means you can select whaever city you want to check the weather information. As database was not used in this project, only one more city (Beijing) was added to this app (It has two cities, Sydney and Beijing). In more detail, you can select between Sydney and Beijing to check the weather information and the weather in next 5 days. 
 
 
 **How to make it commerical?**
