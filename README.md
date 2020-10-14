@@ -28,4 +28,4 @@ In order to make the weather app more functional, I added the function of choosi
 
 **How to make it commerical?**
 
-Well, as I am working on my localhost, we do need a server and database to implement the function. For example, we can design a search engine which allows users to search any city's weather. Besides, the app can be embedded to a web page which is considered as a component. 
+Well, we do need a server and database to implement the function. For example, we can design a search engine which allows users to search any city's weather. Besides, the app can be embedded to a web page which is considered as a component. 
