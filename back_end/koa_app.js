@@ -1,25 +1,34 @@
 const Koa = require("koa");
 const Router = require("koa-router");
+const beijing = require('./fetch_bei');
+const sydney = require('./fetch_syd');
 
 
 const app = new Koa();
 const router = new Router();
 
 
+router.get("/beijing", async (ctx, next) => {
 
-router.get("/", async (ctx, next) => {
+    ctx.body = beijing;
 
-    ctx.body = require("./fetch_app");
+    await next();
+})
+
+router.get("/sydney", async (ctx, next) => {
+
+    ctx.body = sydney;
 
     await next();
 })
 
 router.get("/twitter", async (ctx, next) => {
 
-    ctx.body = require("./twitter_fetch");
+    ctx.body = require("./twitter");
 
     await next();
 })
+
 
 
 app.use(router.routes());

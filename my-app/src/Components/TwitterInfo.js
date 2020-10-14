@@ -11,7 +11,7 @@ class TwitterInfo extends React.Component {
 
         this.state = {
             text: "There is no news now",
-            username: "Username"
+            username: "Username",
         }
     }
 
@@ -20,6 +20,8 @@ class TwitterInfo extends React.Component {
             text: data.text,
             username: data.user.name
         })
+
+        this.componentDidMount();
     }
 
     componentDidMount() {
@@ -35,16 +37,18 @@ class TwitterInfo extends React.Component {
                 ).catch(
                     (err) => console.log(err)
                 );
-        }, 1000)
+        }, 60 * 1000)
+
     }
 
     render() {
+
         return (
             <div className="twitter-wrapper">
                 <div>
                     <span><FontAwesomeIcon icon={faTwitterSquare} /></span>
                     <span>Twitter Feed</span>
-                    <span>#Sydney</span>
+                    <span>#Australia</span>
                 </div>
                 <p>
                     <span>@{this.state.username}:</span>

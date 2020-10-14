@@ -3,6 +3,7 @@ const notifier = require('node-notifier');
 const open = require('open');
 const franc = require('franc')
 
+
 var T = new Twit({
   consumer_key:         apikey,
   consumer_secret:      apiSecretKey,
@@ -24,7 +25,7 @@ var T = new Twit({
 
 
     //2. REAL TIME MONITORING USING STREAM (HASHTAG)
-    var stream = T.stream('statuses/filter', { track: '#Sydney' })
+    var stream = T.stream('statuses/filter', { track: '#Australia' })
     stream.on('tweet', function (tweet) {
         console.log(tweet.text);
         console.log('Language: ' + franc(tweet.text));
